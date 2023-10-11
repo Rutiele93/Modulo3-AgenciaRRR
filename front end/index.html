@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="primary" > <!-- data-bs-theme="dark" -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Framework Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Biblioteca JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- Fivecon -->
+    <link rel="shortcut icon" href="/assets/img/logo-age.png" type="image/x-icon" />
+    <title> Agencia R.R.R | Melhores Viagens™ </title>
+</head>
+
+<body>
+    <main>
+        <!-- Navbar -->
+        <header class="container-fluid navbar navbar-expand-lg bd-navbar" >
+            <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
+                <!-- Logo navbar -->
+                <a class="navbar-brand mx-auto" href="index.html">
+                    <img class="d-block d-none d-lg-flex" id="navbarLogo" src="/assets/img/logo-age.png" alt="agencia">
+                </a>
+                <!-- Botão mobile -->
+                <div class="d-flex">
+                    <button class="navbar-toggler border-0 d-lg-none order-3" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation">
+                        <img id="togglerLogo" src="/assets/img/logo-age.png" fill="currentColor">
+                    </button>
+                </div>
+                <!-- Menu mobile -->
+                <div class="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar"
+                    aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true" aria-modal="true">
+                    <!-- Cabeçalho do menu -->
+                    <div class="offcanvas-header px-4 pb-0">
+                        <h5 class="offcanvas-title text-white" id="bdNavbarOffcanvasLabel"></h5>
+                            <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas"
+                                aria-label="Close" data-bs-target="#bdNavbar"></button>
+                    </div>
+                        <!-- Opções do menu -->
+                    <div class="offcanvas-body p-4 pt-0 p-lg-0">
+                            <hr class="d-lg-none text-white-50">
+                            <!-- Primeira parte da navbar -->
+                            <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav ms-md-auto">
+                                <!-- Home -->
+                                <li class="nav-item col-6 col-lg-auto">
+                                    <a class="nav-link" aria-current="true" href="index.html"><img src="/assets/img/home.png" width="30px">Home</a>
+                                </li>
+                                <!-- Destinos -->
+                                <li class="nav-item col-6 col-lg-auto">
+                                    <a class="nav-link" href="/assets/html/destino.html" style="padding-right: 70px;"><img src="/assets/img/destino.png" width="30px">Destinos</a>
+                                </li>
+                                <!-- Promoção -->
+                                <li class="nav-item col-6 col-lg-auto">
+                                    <a class="nav-link" href="/assets/html/promocao.html" style="padding-right: 70px;"><img src="/assets/img/promocao.png" width="30px">Promoções<a>
+                                </li>
+                                <!-- Cadastro -->
+                                <li class="nav-item col-6 col-lg-auto">
+                                    <a class="nav-link" href="/assets/html/cadastre.html" style="padding-right: 70px;"><img src="/assets/img/usuario.png" width="30px">Cadastro</a>
+                                </li>
+                            </ul>
+                                <hr class="d-lg-none text-white-50">
+                            <!-- Segunda parte da navbar -->
+                            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+                                <li class="nav-item col-6 col-lg-auto"><!-- instagran -->
+                                            <a class="nav-link" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                                                    <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
+                                                    </svg>
+                                            </a>
+                                </li>
+
+                                <li class="nav-item col-6 col-lg-auto"><!-- Linkedin -->
+                                            <a class="nav-link" href="https://www.linkedin.com/in/squad037/" target="_blank"
+                                                rel="noopener">
+                                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                                                    <path fill="#0078d4" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z"></path><path d="M30,37V26.901c0-1.689-0.819-2.698-2.192-2.698c-0.815,0-1.414,0.459-1.779,1.364	c-0.017,0.064-0.041,0.325-0.031,1.114L26,37h-7V18h7v1.061C27.022,18.356,28.275,18,29.738,18c4.547,0,7.261,3.093,7.261,8.274	L37,37H30z M11,37V18h3.457C12.454,18,11,16.528,11,14.499C11,12.472,12.478,11,14.514,11c2.012,0,3.445,1.431,3.486,3.479	C18,16.523,16.521,18,14.485,18H18v19H11z" opacity=".05"></path><path d="M30.5,36.5v-9.599c0-1.973-1.031-3.198-2.692-3.198c-1.295,0-1.935,0.912-2.243,1.677	c-0.082,0.199-0.071,0.989-0.067,1.326L25.5,36.5h-6v-18h6v1.638c0.795-0.823,2.075-1.638,4.238-1.638	c4.233,0,6.761,2.906,6.761,7.774L36.5,36.5H30.5z M11.5,36.5v-18h6v18H11.5z M14.457,17.5c-1.713,0-2.957-1.262-2.957-3.001	c0-1.738,1.268-2.999,3.014-2.999c1.724,0,2.951,1.229,2.986,2.989c0,1.749-1.268,3.011-3.015,3.011H14.457z" opacity=".07"></path><path fill="#fff" d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z"></path>
+                                                    </svg>
+                                            </a>
+                                </li>
+                                <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+                                    <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
+                                        <hr class="d-lg-none my-2 text-white-50">
+                                </li>
+                                <div class="nav-item col-12 col-lg-auto"><!-- Botões de Login -->
+                                    <a class="btn btn-primary" role="button" href="/assets/html/login.html">Entrar</a>
+                                </div>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- CORPO -->
+        <div class="p-1 p-md-1 mb-1 text-white rounded bd-navbar " >          
+                <div class="col-md-12 px-0">
+                    <h1 class="display-4 fst-italic"> Aqui você encontra as melhores ofertas de viagens...</h1>
+                </div>                  
+            <section>
+                <!-- menu pesquisa -->
+                <nav class="navbar navbar-expand-lg border-3 p-2 nav-menu text-body-color">
+                    <from class="form-inline">
+                        <div class="d-inline" style="padding-right: 30px;">
+                            <label for="origem" class="form-label "></label>
+                            <input class="form-inline" type="search" placeholder="Origem..." aria-label="origem" id="txtOrigem" style="padding-right: 40px;"/>
+                        </div>
+                        <div class="d-inline" style="padding-right: 30px;">
+                            <label for="destino" class="form-label"></label>
+                            <input class="form-inline" type="search" placeholder="Destino..." aria-label="destino"id="txtDestino" style="padding-right: 40px;"/>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label for="exampleInputDataIda" class="form-label">Data Ida:</label>
+                            <input type="date" class="form-control" id="exampleInputDataIda">
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label for="exampleInputDataIda" class="form-label">Data Volta:</label> 
+                            <input type="date" class="form-control" id="exampleInputDataVolta">
+                        </div>
+                        <div class="d-inline" style="padding-left: 40px;">
+                            <button class="btn my-2 my-sm-0 btn-primary" type="submit" id="buttonBusca" >Buscar</button>
+                        </div>
+                    </form>
+                </nav><br>
+            </section>  
+            <aside><!-- Carousel -->                
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""aria-label="Slide1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide2"class="active" aria-current="true"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                        class=""></button>
+                    </div>    
+                    <div class="carousel-inner">
+                        <!-- Primeiro slide -->
+                        <div class="carousel-item carousel-item-start active">
+                            <img src="/assets/img/floripa1.png" alt="Promoções imperdíveis!" width="100%" height="100%">
+                            <div class="container">
+                                <div class="carousel-caption text-white text-start">
+                                    <h1>Promoções imperdíveis!</h1>
+                                        <p class="opacity-75">Florianópolis</p>
+                                        <p><a class="btn btn-lg btn-primary" href="/assets/html/pac-floria.html">Vejam mais detalhes</a></p>
+                                </div>
+                            </div>
+                        </div>    
+                        <!-- Segundo slide -->
+                        <div class="carousel-item carousel-item-next carousel-item-start">
+                            <img src="/assets/img/rio1.png" alt="Promoções imperdíveis!" width="100%" height="100%">
+                            <div class="container">
+                                <div class="carousel-caption text-white">
+                                    <h1>Promoções imperdíveis!</h1>
+                                    <p class="opacity-75">Rio de janeiro</p>    
+                                    <p><a class="btn btn-lg btn-primary" href="/assets/html/pac-rio.html">Vejam mais detalhes</a></p>
+                                </div>
+                            </div>
+                        </div>    
+                        <!-- Terceiro slide -->
+                        <div class="carousel-item">
+                                <img src="/assets/img/ssa1.png" alt="Promoções imperdíveis!" width="100%" height="100%">
+                            <div class="container">
+                                <div class="carousel-caption text-white text-end">
+                                    <h1>Promoções imperdíveis!</h1>
+                                        <p class="opacity-75"> Salvador<p>
+                                        <p><a class="btn btn-lg btn-primary" href="/assets/html/pac-salvador.html">Vejam mais detalhes</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Voltar</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Avançar</span>
+                    </button>
+                </div>
+            </aside>       
+      <!-- RODAPÉ -->
+      <div class="container-fluid">
+        <footer class="py-6 my-4">
+          <ul class="nav justify-content-center border-bottom navbar navbar-expand-lg navbar-fixa">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link px-2">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/assets/html/loja.html" target="_blank"
+                style="padding-left: 50px; padding-right: 50px;"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 384 512">
+                  <style>
+                    svg {
+                      fill: #246deb
+                    }
+                  </style>
+                  <path
+                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                </svg> Encontre uma loja</a>
+            </li>
+            <li class="nav-item">
+              <span class="nav-link active" style="padding-left: 50px; padding-right: 50px;"><svg
+                  xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                  <style>
+                    svg {
+                      fill: #246deb
+                    }
+                  </style>
+                  <path
+                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                </svg> Central de atendimento: (xx) xxxxx-xxxx | Televendas:(xx) xxxx-xxxx
+              </span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/assets/html/ajuda.html" style="padding-left: 50px;"><svg
+                  xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                  <style>
+                    svg {
+                      fill: #246deb
+                    }
+                  </style>
+                  <path
+                    d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM128 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM80 432c0-44.2 35.8-80 80-80h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16z" />
+                </svg> Precisa de ajuda?</a>
+            </li>
+          </ul>
+          <p class="text-center">© Copyright 2023 Todos os direitos reservados, Agencia R.R.R</p>
+          <p><a href="#" id="float-end">Voltar ao início</a></p>
+        </footer>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

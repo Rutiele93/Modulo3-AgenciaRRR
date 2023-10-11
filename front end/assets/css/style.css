@@ -1,0 +1,135 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root {
+    --fonte-comum: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; ;
+    --fonte-especial: ;
+    --cor-especial: #00b7ff;
+    --cor-texto: #210dcf;
+    --cor-texto1: black;
+    --cor-texto2: white;
+    --cor-texto3: #acc1cc;
+    
+    --gradient: linear-gradient(to bottom,
+            var(--cor-especial),
+            transparent);
+
+    --gradient1: linear-gradient(to bottom, var(--cor-texto1),
+        transparent);
+    
+    --gradient2: linear-gradient(to bottom, var(--cor-texto),
+        transparent);
+}
+
+* {
+    font-family: var(--fonte-comum);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* navbar fixa */
+
+.navbar-fixa {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;        
+    user-select: none;      
+}
+
+h1 {
+    background-image: var(--gradient);
+    filter: drop-shadow(1px 1px 10px var(--cor-especial));
+}
+/* menu */
+.bd-navbar {
+    background-image: var(--gradient);
+    box-shadow: 0 0.5rem 1rem rgba(99, 204, 236, 0.5), inset 0 -1px 0 rgba(78, 163, 219, 0.15);
+    background-color: transparent;
+    filter: drop-shadow(1px 1px 10px var(--cor-especial));
+}
+
+.navbar-nav {
+    --bs-nav-link-color: var(--cor-texto);
+    --bs-nav-link-hover-color: var(--cor-especial);
+    font-size: 25px;   
+}
+
+.nav-menu{
+    background-image: var(--gradient);
+    box-shadow: 0 0.5rem 1rem rgba(99, 204, 236, 0.5), inset 0 -1px 0 rgba(78, 163, 219, 0.15);
+    background-color: transparent;
+    font-size: 23px;    
+}
+
+#navbarLogo { /* logo da navbar */
+    width:130px; 
+}
+
+#togglerLogo { /* logo botÃ£o mobile */
+    max-width: 2rem;
+}
+
+.text-body-color { /* cor dos menu */
+    color: var(--cor-texto2);
+}
+
+.btn-primary {
+    --bs-btn-color: var(--cor-texto2);
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: var(--cor-texto2);
+    --bs-btn-hover-color: var(--cor-especial);
+    --bs-btn-hover-bg: var(--cor-texto1);
+    --bs-btn-hover-border-color: rgb(0, 0, 0);
+    filter: drop-shadow(1px 1px 10px var(--cor-especial));
+}
+
+/* Footer */
+
+
+.text-center { /* copyright */
+    color: var(--cor-texto);
+
+}
+
+/* css incio pag login */
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 10px;
+   
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+/* css fim pag login */
+/* pag e cadastre */
+#paraBaixo{
+    margin-top: 100px;
+    padding: 20px;
+
+}
+
+

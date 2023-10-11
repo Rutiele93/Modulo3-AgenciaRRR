@@ -1,0 +1,60 @@
+@import url(style.css);
+
+
+
+/* Carrousel */
+.carousel {
+    margin-bottom: 0rem;
+    position: relative;
+}
+
+.carousel-item {
+    height: 35rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.carousel-indicators {
+    position: absolute;
+    margin-right: 15%;
+    margin-bottom: 0.5rem;
+    margin-left: 15%;
+    opacity: .5;
+}
+
+#slide1 {
+    background-position: center;
+    background-size: cover;
+}
+
+#slide2 {
+    background-position: center;
+    background-size: cover;
+}
+
+#slide3 {
+    background-position: center;
+    background-size: cover;
+}
+.opacity-75 {
+    background-image: var(--gradient1);
+    background-color: transparent;
+    color: var(--cor-texto2);
+    font-size: 20px;
+}
